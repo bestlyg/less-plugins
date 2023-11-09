@@ -39,7 +39,8 @@
         "package-json-extension": "^0.0.5",
         "rimraf": "^5.0.5",
         "typescript": "^5.2.2"
-      }
+      },
+      "files": ["lib", "src", "package.json", "README.md"]
     }
   }
 }

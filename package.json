@@ -5,6 +5,7 @@
   "author": "BestLyg",
   "scripts": {
     "clean": "rimraf ./node_modules",
+    "extend-package-json": "pnpm -r run extend-package-json",
     "setup": "pnpm -r run clean && pnpm clean && pnpm install --force"
   },
   "devDependencies": {
