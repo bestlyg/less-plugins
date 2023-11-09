@@ -1,37 +1,10 @@
 {
-  "name": "less-plugin-fn",
-  "version": "1.0.0",
-  "description": "write custom Less functions in Less itself.",
-  "homepage": "https://github.com/bestlyg/less-plugin-fn",
+  "name": "less-plugins",
+  "private": true,
+  "homepage": "https://github.com/bestlyg/less-plugins",
   "author": "BestLyg",
-  "main": "lib/index.js",
   "scripts": {
-    "clean": "rimraf ./lib",
-    "build": "tsc -p tsconfig.json",
-    "render": "pnpm exec lessc"
-  },
-  "keywords": [
-    "css",
-    "less",
-    "less.js",
-    "less css",
-    "less plugin",
-    "less functions"
-  ],
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/bestlyg/less-plugin-fn.git"
-  },
-  "dependencies": {
-    "less": "^4.2.0",
-    "yargs": "^17.7.2"
-  },
-  "devDependencies": {
-    "@types/less": "^3.0.5",
-    "@types/node": "^20.8.9",
-    "@types/yargs": "^17.0.29",
-    "rimraf": "^5.0.5",
-    "typescript": "^5.2.2"
+    "clean": "rimraf ./lib ./node_modules",
+    "setup": "pnpm -r run clean && pnpm install"
   }
 }

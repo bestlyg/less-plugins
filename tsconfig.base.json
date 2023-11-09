@@ -11,6 +11,5 @@
     "declaration": true,
     "target": "es5"
   },
-  "include": ["src/**/*"],
   "exclude": ["node_modules", "lib/**/*"]
 }
