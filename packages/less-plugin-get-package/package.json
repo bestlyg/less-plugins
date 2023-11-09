@@ -4,14 +4,14 @@
             "../../package.base.json"
         ],
         "vars": {
-            "name": "define-var",
-            "desc": "write custom Less variable in Plugin."
+            "name": "get-package",
+            "desc": "get a package info in Plugin."
         }
     },
-    "name": "less-plugin-define-var",
-    "version": "1.0.0",
-    "description": "write custom Less variable in Plugin.",
-    "homepage": "https://github.com/bestlyg/less-plugins/packages/less-plugin-define-var",
+    "name": "less-plugin-get-package",
+    "version": "0.0.1",
+    "description": "get a package info in Plugin.",
+    "homepage": "https://github.com/bestlyg/less-plugins/packages/less-plugin-get-package",
     "author": "BestLyg",
     "main": "lib/index.js",
     "scripts": {
@@ -29,18 +29,21 @@
         "less css",
         "less plugin",
         "less functions",
-        "define-var"
+        "get-package"
     ],
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "git://github.com/bestlyg/less-plugins/packages/less-plugin-define-var.git"
+        "url": "git://github.com/bestlyg/less-plugins/packages/less-plugin-get-package.git"
     },
     "dependencies": {
+        "fs-extra": "^11.1.1",
         "less": "^4.2.0",
         "yargs": "^17.7.2"
     },
     "devDependencies": {
+        "@emotion/hash": "^0.9.1",
+        "@types/fs-extra": "^11.0.4",
         "@types/less": "^3.0.5",
         "@types/node": "^20.8.9",
         "@types/yargs": "^17.0.29",

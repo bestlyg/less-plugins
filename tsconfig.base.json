@@ -9,7 +9,8 @@
     "importHelpers": true,
     "noImplicitAny": false,
     "declaration": true,
-    "target": "es5"
+    "target": "es5",
+    "types": ["node"]
   },
   "exclude": ["node_modules", "lib/**/*"]
 }

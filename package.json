@@ -4,7 +4,13 @@
   "homepage": "https://github.com/bestlyg/less-plugins",
   "author": "BestLyg",
   "scripts": {
-    "clean": "rimraf ./lib ./node_modules",
-    "setup": "pnpm -r run clean && pnpm install"
+    "clean": "rimraf ./node_modules",
+    "setup": "pnpm -r run clean && pnpm clean && pnpm install --force"
+  },
+  "devDependencies": {
+    "rimraf": "^5.0.5"
+  },
+  "dependencies": {
+    "@types/node": "^20.8.9"
   }
 }
